@@ -1,0 +1,10 @@
+/node_modules/
+/build/
+/vendor/
+.php_cs.cache
+.drone.yml
+/tests/output/
+
+/js/
+/css/
+/.DS_Store

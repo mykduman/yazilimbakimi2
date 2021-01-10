@@ -1,0 +1,46 @@
+{
+  "name": "files_mediaviewer",
+  "version": "1.0.1",
+  "description": "Viewer for pictures and videos integrated in the files app",
+  "dependencies": {
+    "easygettext": "^2.16.1",
+    "@types/moment-duration-format": "^2.2.2",
+    "moment-duration-format": "^2.3.2",
+    "swiper": "^4.5.1",
+    "vue": "^2.6.12",
+    "vue-router": "^3.4.9",
+    "vuex": "^3.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^3.2.1",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.1.4",
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "build": "webpack -p",
+    "watch": "webpack --watch --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owncloud/files_mediaviewer.git"
+  },
+  "keywords": [
+    "owncloud",
+    "media",
+    "gallery"
+  ],
+  "author": "Felix Heidecke",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/owncloud/files_mediaviewer/issues"
+  },
+  "homepage": "https://github.com/owncloud/files_mediaviewer#readme"
+}
